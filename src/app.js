@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:3000", "https://axis-fe-ten.vercel.app","https://www.axissupport.help"],
+  // origin: ["http://localhost:3000", "https://axis-fe-ten.vercel.app","https://www.axissupport.help"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
